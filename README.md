@@ -1,2 +1,8 @@
-# Order-food-online
-this is a full stack Application where student can order food online.
+# Deal UP
+this is a full stack Application where we can sell second hand goods.
+
+## npm install
+- to install dependencies
+
+## npm start
+- to start the development server
