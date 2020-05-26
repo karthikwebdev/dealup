@@ -1,0 +1,37 @@
+form.search-bar input{
+    width: 30vw !important;
+}
+
+ul.categories{
+    width: 300px;
+    z-index: 5;
+}
+ul.categories li span{
+    float: right;
+}
+span.icon{
+    z-index: 2;
+    cursor: pointer;
+}
+ul.categories li{
+    transition: 1s;
+}
+
+ul.categories li.close{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+.carousel-item img{
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width:990px){
+    ul.custom-navbar li.nav-item{
+        background-color: #FFC107 !important;
+    }
+    ul.custom-navbar li.nav-item a{
+    color: black !important;
+    }
+}
